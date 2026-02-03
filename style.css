@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+  
+:root{
+  --heart-color:#ff5873;
+  --background-color: #5ba2ff;
+  --white:#fff;
+}
+
+body{
+  font-family: 'Indie Flower';
+  background-color: var(--background-color);
+  margin:0;
+  padding:0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  color:var(--heart-color);
+  background-image:url('ughghghrrr.png'), url('mini-hearth2.png'), url('valentinesnyangif-ezgif.com-rotate\ vertical.gif');
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center, left, right;
+  min-height: 400px; 
+  background-size: contain;
+}
+
+.container{
+  grid-row: 2/3;
+  justify-self: center;
+  margin-top: -130px;
+  margin-right: -5px;
+  align-self: center;
+  grid-column: 5/9;
+  text-align: center;
+  position: relative;
+  cursor: hand;
+}
+
+.letter_ct{
+  width: 425px;
+  height: 325px;
+  grid-row: 4/7;
+  grid-column: 5/9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  cursor: hand;
+}
+
+.txt{
+  grid-row: 9/11;
+  grid-column: 5/9;
+  text-align: center;
+  font-size: 15px;
+}
+
+label{
+  position: absolute;
+}
+
+.letter{
+  grid: inherit;
+  width: 425px;
+  height: 325px;
+  background-color: rgb(193, 2, 34);
+  border: 5px solid rgb(0, 0, 0);
+  display: grid;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  border-radius: 0 0 7px 7px;
+  background-image:url('ezgif.com-crop.gif');
+  background-size: contain;
+  cursor: hand;
+}
+
+.main{
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+
+.note{
+  z-index: 1;
+  text-align: left;
+  position: absolute;
+  width: 418px;
+  height: 320px;
+  margin: 5px 9px;
+  background-color:#ddd9ff;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+  p {
+    margin: 15px 30px;
+    font-size: 15px;
+    color: #000f47;
+    font-weight: bold;
+  }
+  .int {
+    text-align: left;
+  }
+  .sign {
+    text-align: right;
+    margin: 5px 50px;
+  }
+
+  transform: translateY(0px);
+  transition-duration: 0.3s;
+  cursor: hand;
+}
+
+b {
+    margin: 10px 80px;
+    font-size: 15px;
+    animation: bounce-color 2s infinite alternate; 
+}
+
+/* Define the animation sequence */
+@keyframes bounce-color {
+  0% {
+    transform: translateY(0) scale(0.5); /* Start position and scale */
+    color: rgb(180, 0, 30);  /* Start color */
+  }
+  50% {
+    transform: translateY(0) scale(0.8); /* Bounce up and slightly bigger */
+    color: #ff0066; /* Middle color */
+  }
+  100% {
+    transform: translateY(0) scale(0.5); /* End position and scale (back down) */
+    color: #ff00ae; /* End color */
+  }
+}
+
+.note2{
+  z-index: 1;
+  font-family: "Pacifico";
+  justify-content: center;
+  position: absolute;
+  width: 418px;
+  height: 250px;
+  margin: 78px 9px;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+  background-image:url('hearts\ hehehe.jpg');
+  background-size: contain;
+  p {
+    margin: 10px 30px;
+    font-size: 15px;
+    color: rgb(180, 0, 30); 
+  }
+  .int {
+    text-align: left;
+  }
+  .sign {
+    text-align: right;
+  }
+
+  transform: translateY(0px);
+  transition-duration: 0.3s;
+  cursor: hand;
+}
+
+.center-image {
+  display: block;
+  width: 130px;
+  height: 110px;
+  top: 50%;
+  margin-top: 60px;
+  left: 50%;
+  margin-left: 145px;
+}
+
+.vertical-text {
+  writing-mode: vertical-lr; /* Or vertical-lr */
+  text-orientation: upright; /* Optional: keeps characters upright instead of sideways */
+  display: block;
+  font-family: 'Indie Flower';
+  font-weight: bold;
+  color: rgb(180, 0, 30); 
+  font-size: 15px;
+  top: 50%;
+  margin-top: -100px;
+  left: 50%;
+  margin-left: 320px;
+  position: absolute;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.vertical-text3 {
+  writing-mode: vertical-lr; /* Or vertical-lr */
+  text-orientation: upright; /* Optional: keeps characters upright instead of sideways */
+  display: block;
+  font-family: 'Indie Flower';
+  font-weight: bold;
+  color: rgb(180, 0, 30); 
+  font-size: 15px;
+  top: 50%;
+  margin-top: 118px;
+  left: 50%;
+  margin-left: 320px;
+  position: absolute;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.vertical-text2 {
+  writing-mode: vertical-lr; /* Or vertical-lr */
+  text-orientation: upright; /* Optional: keeps characters upright instead of sideways */
+  display: block;
+  font-family: 'Indie Flower';
+  font-weight: bold;
+  color: rgb(180, 0, 30); 
+  font-size: 15px;
+  top: 50%;
+  margin-top: 200px;
+  left: 50%;
+  margin-left: 320px;
+  position: absolute;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.title {
+  text-orientation: upright; /* Optional: keeps characters upright instead of sideways */
+  display: block;
+  font-family: "Pacifico";
+  font-weight: bold;
+  color: rgb(180, 0, 30); 
+  font-size: 15px;
+  top: 50%;
+  margin-top: 95px;
+  left: 50%;
+  margin-left: -460px;
+  position: absolute;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.title2 {
+  text-orientation: upright; /* Optional: keeps characters upright instead of sideways */
+  display: block;
+  font-family: "Pacifico";
+  font-weight: bold;
+  color: rgb(180, 0, 30); 
+  font-size: 15px;
+  top: 50%;
+  margin-top: 180px;
+  left: 50%;
+  margin-left: -460px;
+  position: absolute;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.instructions {
+  text-orientation: upright; /* Optional: keeps characters upright instead of sideways */
+  display: block;
+  font-family: 'Indie Flower';
+  font-weight: bold;
+  color: rgb(180, 0, 30); 
+  font-size: 15px;
+  top: 50%;
+  margin-top: 122px;
+  left: 50%;
+  margin-left: -425px;
+  position: absolute;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.instructions2 {
+  text-orientation: upright; /* Optional: keeps characters upright instead of sideways */
+  display: block;
+  font-family: 'Indie Flower';
+  font-weight: bold;
+  color: rgb(180, 0, 30); 
+  font-size: 15px;
+  top: 50%;
+  margin-top: 214px;
+  left: 50%;
+  margin-left: -425px;
+  position: absolute;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.instructions3 {
+  text-orientation: upright; /* Optional: keeps characters upright instead of sideways */
+  display: block;
+  font-family: 'Indie Flower';
+  font-weight: bold;
+  color: rgb(180, 0, 30); 
+  font-size: 15px;
+  top: 50%;
+  margin-top: 237px;
+  left: 50%;
+  margin-left: -425px;
+  position: absolute;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.behind-image {
+  display: flex;
+  width: 400px;
+  height: 200;
+  top: 50%;
+  margin-top: -60px;
+  left: 50%;
+  margin-left: -700px;
+  position: absolute;
+  background-position: center;
+  z-index: -3;
+}
+
+.front{
+  position: absolute;
+  z-index: 2;
+  width: 425px;
+  height: 325px;
+  background-color: rgb(180, 0, 30); 
+  background-image:url('ezgif.com-crop.gif');
+  background-size: contain;
+  margin: 4px;
+  clip-path: polygon(50% 45%, 100% 0, 100% 100%, 0 100%, 0 0);
+  cursor: hand;
+}
+
+.flap-bg{
+  z-index: 2;
+  background-color: rgb(0, 0, 0);
+  margin-top: 2px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 1%, 50% 56%, 0 1%);
+
+  transform: rotateX(0deg);
+  transition-duration: 0.3s ease-in-out;
+}
+
+.flap{
+  z-index: 2;
+  margin-left: 1px;
+  background-color: rgb(243, 43, 77);
+  border: 3.6px solid rgb(0, 0, 0);
+  clip-path: polygon(0 0, 100% 0, 50% 55%);
+  background-image:url('ezgif.com-crop.gif');
+  background-size: contain;
+
+  transform: rotateX(0deg);
+  transition-duration: 0.3s ease-in-out;
+  cursor: hand;
+}
+
+.heart{
+  position: absolute;
+  z-index: 4;
+  cursor: hand;
+  height: 170px;
+  width: 200px;
+
+  scale: 30%;
+  margin: 70px 102px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.heart::before,
+.heart::after{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 160px;
+  background-color: rgb(178, 34, 106);
+}
+
+.heart::before{
+  left: 100px;
+
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+
+  border-radius: 50px 50px 0 0;
+}
+
+.heart::after{
+  right: 100px;
+
+  -webkit-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+
+  -webkit-border-radius: 50px 50px 0 0;
+  border-radius: 50px 50px 0 0;
+}
+
+/* checkbox */
+#check{
+  display: none;
+}
+
+input:not(:hover) ~ label .flap{
+  transform-origin: top;
+  transform: rotateX(0deg);
+  transition: 0.3s ease-in-out;
+  transition-delay: 0.3s;
+
+  -webkit-transition-delay: 0.3s;
+  -webkit-transform-origin: top;
+  -webkit-transform: rotateX(0deg);
+}
+
+input:not(:hover) ~ label .flap-bg{
+  transform-origin: top;
+  transform: rotateX(0deg);
+  transition: 0.3s ease-in-out;
+  transition-delay: 0.3s;
+
+  -webkit-transition-delay: 0.3s;
+  -webkit-transform-origin: top;
+  -webkit-transform: rotateX(0deg);
+}
+
+input:not(:hover) ~ label .heart{
+  transform-origin: center 70%;
+  transform: translateY(0px) rotate(0deg);
+  transition-delay: 0.6s;
+
+  -webkit-transition-delay: 0.6s;
+  -webkit-transform-origin: center 70%;
+  -webkit-transform: translateX(0px) rotate(0deg);
+}
+
+input:hover ~ label .flap{
+  transform: rotateX(-180deg) translateY(-4px);
+  transition: 0.3s ease-in-out;
+  transition-delay: 0.3s;
+
+  transform-origin: top;
+  -webkit-transform: rotateX(-180deg) translateY(-4px);
+  -webkit-transition-delay: transform 0.3s ease;
+  cursor: hand;
+}
+
+input:hover ~ label .flap-bg{
+  transform: rotateX(-180deg);
+  transition: 0.3s ease-in-out;
+  transition-delay: 0.3s;
+
+  transform-origin: top;
+  -webkit-transform: rotateX(-180deg);
+  -webkit-transition-delay: transform 0.3s ease;
+  -webkit-transition-delay: 0.3s;
+  cursor: hand;
+}
+
+input:hover ~ label .flap,
+input:hover ~ label .flap-bg{
+  transform-origin: top;
+  transition: transform 0.3s 0.4s, z-index 0s 0.6s;
+
+  z-index: 0;
+  cursor: hand;
+}
+
+input:hover ~ label .heart{
+  transform-origin: center 70%;
+  transform: translateX(-60px) rotate(-70deg);
+  transition-duration: 0.3s;
+
+  -webkit-transform-origin: center 70%;
+  -webkit-transform: translateX(-60px) rotate(-70deg);
+  -webkit-transition-duration: 0.3s;
+  cursor: hand;
+}
+
+input:hover ~ label .note{
+  transform: translateY(-170px);
+  transition-delay: 0.8s;
+  cursor: hand;
+}
+
+input:checked ~ label .note2{
+  transform: translateY(-170px);
+  transition-duration: 0.3s;
+  cursor: hand;
+}
